@@ -593,8 +593,8 @@ def send_student_notification(request):
         "notification": {
             "title": "Student Management System",
             "body": message,
-            "click_action": "https://studentmanagementsystem22.herokuapp.com/student_all_notification",
-            "icon": "https://studentmanagementsystem22.herokuapp.com/static/dist/img/user2-160x160.jpg"
+            # "click_action": "https://studentmanagementsystem22.herokuapp.com/student_all_notification",
+            # "icon": "https://studentmanagementsystem22.herokuapp.com/static/dist/img/user2-160x160.jpg"
         },
         "to": token
     }
